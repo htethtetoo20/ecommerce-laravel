@@ -1,7 +1,7 @@
 @extends("master")
 @section("content")
     <div class="container">
-        <h3 class="mt-3 text-center">Cart Lists</h3>
+        <h3 class="mt-3 text-center">Order Lists</h3>
         @foreach($products as $item)
             <div class="row border" >
 

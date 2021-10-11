@@ -21,7 +21,7 @@
             </tr>
             <tr>
                 <th scope="row">Total Amount</th>
-                <td>{{$total+10}}</td>
+                <td>$ {{$total+10}}</td>
 
             </tr>
             </tbody>

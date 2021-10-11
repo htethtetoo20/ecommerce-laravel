@@ -20,8 +20,6 @@
     <div class="text-center">
         <button type="submit" class="btn btn-primary">Sign in</button>
     </div>
-
-
     </form>
     </div>
 @endsection

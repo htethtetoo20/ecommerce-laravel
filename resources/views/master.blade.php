@@ -26,9 +26,12 @@
          height: 400px;
          width:300px;
      }
-     .custom-product {
-         height: 600px;
+     @media only screen and (min-width: 768px) {
+         .custom-product {
+             height: 600px;
+         }
      }
+
      .slider-text{
          background-color: #35443585;
      }
@@ -40,12 +43,29 @@
          background-image: url("https://pic.onlinewebfonts.com/svg/img_98761.png");
      }
      .trending-img{
-         height: 100px;
-     }
-     .trending-item{
-         float: left;
 
+         width:200px;
+         height: 200px;
      }
+
+     @media only screen and (max-width: 600px) {
+         .trending-img{
+
+             width:300px;
+             height:300px;
+             margin-left: auto;
+             margin-right: auto;
+         }
+     }
+
+
+     @media only screen and (min-width: 600px) {
+         .trending-item{
+             float: left;
+
+         }
+     }
+
      .detail-img{
          height: 400px;
 
@@ -73,18 +93,28 @@
              font-size: large;
          }
      }
-
-     .colgap{
-         column-gap: 20px;
+     .order-font-size{
+         font-size: 20px;
      }
      @media only screen and (max-width:600px) {
-         .colgap{
-             column-gap: 0px;
+         .order-font-size{
+             font-size: 15px;
          }
      }
-     .border{
-         border: 1px solid;
+     .order-items{
+         height: 200px;
      }
+     @media only screen and (max-width:600px) {
+         .order-items{
+            height: 150px;
+         }
+     }
+
+
+
+
+
+
 
 
 

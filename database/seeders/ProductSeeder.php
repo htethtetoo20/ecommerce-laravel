@@ -16,26 +16,18 @@ class ProductSeeder extends Seeder
     {
         //
         DB::table("products")->insert([
-            ["name"=>"Dell",
-            "price"=>"$500",
-            "category"=>"Laptop",
-            "description"=>"A smart laptop with 4GB ram and much more features",
-            "gallery"=>"https://m.media-amazon.com/images/I/61zVpR0Q4jL._SL1280_.jpg"
+            ["name"=>"Lenovo",
+            "price"=>"100",
+            "category"=>"Tablet",
+            "description"=>"A smart headpone with 4GB ram and much more features",
+            "gallery"=>"http://d1f7geppf3ca7.cloudfront.net/origin/730150/716lsydg3fl_ac_sl1500__1602802096741.jpg"
 
             ],
-            [
-                "name"=>"Pannasonic",
-                "price"=>"$200",
-                "category"=>"TV",
-                "description"=>"* 110 to 240 Volts & 50/60hz for Worldwide Use * Screen Size : 32 inches * Resolution: 1366x768 * Full HD * Connectivity: 2 HDMI, 2 USB & PC INPUT *",
-                "gallery"=>"https://www.220-electronics.com/media/catalog/product/cache/06e563bb4bf8bb99ff5c3485d61b5ba4/d/3/d3xx_spec.png"
-            ],
-            [
-                "name"=>"Iphone 13",
-                "price"=>"$300",
-                "category"=>"Mobile",
-                "description"=>"A smart phone with 4GB ram and much more features",
-                "gallery"=>"https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/iphone-13-family-select-2021?wid=940&hei=1112&fmt=jpeg&qlt=80&.v=1629842667000"
+            ["name"=>"Iwatch",
+                "price"=>"200",
+                "category"=>"Watch",
+                "description"=>"A smart watch with 4GB ram and much more features",
+                "gallery"=>"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOITAUOv_jKzirowgT2RUyWWnZyn_csmuI3Ikp2H1yAcck3fc2VCLbJ38yZI-e57rS-ys&usqp=CAU"
             ]
         ]);
 

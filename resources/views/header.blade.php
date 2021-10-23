@@ -1,14 +1,12 @@
 
 <?php
 use App\Http\Controllers\ProductController;
-
 $total=0;
 if(Session::has("user"))
    {
        $total=ProductController::cart_item();
    }
 ?>
-
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
         <a class="navbar-brand" href="#">ELECTRONIC CITY</a>
@@ -37,7 +35,7 @@ if(Session::has("user"))
                 </li>
                 @if(Session::has("user"))
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle"  id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                        {{Session::get("user")["name"]}}
                     </a>
                     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">

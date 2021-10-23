@@ -21,7 +21,7 @@
      .custom-login{
         height: 500px;
         padding-top: 120px;
-    }
+     }
      .slider-img{
          height: 400px;
          width:300px;
@@ -31,7 +31,6 @@
              height: 600px;
          }
      }
-
      .slider-text{
          background-color: #35443585;
      }
@@ -47,7 +46,6 @@
          width:200px;
          height: 200px;
      }
-
      @media only screen and (max-width: 600px) {
          .trending-img{
 
@@ -57,18 +55,26 @@
              margin-right: auto;
          }
      }
-
-
+     .max-width{
+         margin:20px 100px 20px 200px;
+     }
+     @media only screen and (max-width: 600px) {
+        .max-width{
+         margin:0;
+     }
+     }
+     @media only screen and (max-width: 1200px) {
+        .max-width{
+         margin:0;
+     }
+     } 
      @media only screen and (min-width: 600px) {
          .trending-item{
              float: left;
-
-         }
+            }
      }
-
-     .detail-img{
+    .detail-img{
          height: 400px;
-
      }
      .search-box{
          width: 300px;
@@ -109,14 +115,6 @@
             height: 150px;
          }
      }
-
-
-
-
-
-
-
-
 
 </style>
 </html>

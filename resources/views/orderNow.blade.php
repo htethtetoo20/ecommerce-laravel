@@ -41,13 +41,13 @@
                 </label>
             </div>
             <div class="form-check">
-                <input class="form-check-input" type="radio" name="payment_method" id="gridRadios2" value="VisaCard">
+                <input class="form-check-input" type="radio" name="payment_method" id="gridRadios2" value="VisaCard" disabled>
                 <label class="form-check-label" for="gridRadios2">
                    VisaCard
                 </label>
             </div>
             <div class="form-check ">
-                <input class="form-check-input" type="radio" name="payment_method" id="gridRadios3" value="PayPal" >
+                <input class="form-check-input" type="radio" name="payment_method" id="gridRadios3" value="PayPal" disabled>
                 <label class="form-check-label" for="gridRadios3">
                    PayPal
                 </label>

@@ -2,11 +2,10 @@
 @section("content")
     <div class="container custom-product">
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-
             <div class="carousel-indicators">
                 @foreach($products as $item)
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="{{$item["id"]-1}}" class="{{$item["id"]==1?"active":""}}" aria-current="true" aria-label="Slide 1"></button>
-                    @endforeach
+                @endforeach
             </div>
             <div class="carousel-inner">
                 @foreach($products as $item)
@@ -30,8 +29,8 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
-        <h3>Trending Products</h3>
-
+        <h3 class="text-center">Trending Products</h3>
+        <div class="max-width">
         @foreach($products as $item)
             <div class="trending-item me-4">
                 <a href="/detail/{{$item["id"]}}">
@@ -40,9 +39,10 @@
                     <h4 class="text-dark text-center">{{$item["name"]}}</h4>
             </div>
         @endforeach
-
+        <div>
     </div>
+    </div>
+</div>
     <div class="clearfix"></div>
-
 
 @endsection
